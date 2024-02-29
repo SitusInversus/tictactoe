@@ -23,7 +23,7 @@ background: check win condition
     -turnDecider: enable player to set token, disable other player
 
 3. Turn Action:
-    -chooseCell: if any cell is empty, player select cell in matrix to set value
+    -chooseCell: player clicks on cell, if any cell is empty, player select cell in matrix to set value
         if cell empty, call
              -setCellValue
         if cell non empty, call
@@ -40,3 +40,13 @@ background: check win condition
 
 5.  Game End:  
     -gameEnder: Announce winner or draw for Game, disable player actions on board
+
+
+Bare Bone Basics
+
+dom
+
+create Board
+showBoard
+user interacts > changed Board
+showBoard

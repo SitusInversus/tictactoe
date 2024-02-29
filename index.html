@@ -8,6 +8,45 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
+    <div class="container">
+        <h1>TIC TAC TOE</h1>
+        <div class="setup">
+            <h2>Choose Player Name and token</h2>
+            <label for="name1">Name: 
+                <input type="text" id="name1" placeholder="Player_1">
+            </label>
+            <label for="token1">
+                <select name="token1" id="token1">
+                    <option value="X">X</option>
+                    <option value="Y">Y</option>
+                    <option value="Z">Z</option>
+                </select>
+            </label>
+            <label for="name2">Name: 
+                <input type="text" id="name2" placeholder="Player_2">
+            </label>
+            <label for="token2">
+                <select name="token2" id="token2">
+                    <option value="X" selected>Q</option>
+                    <option value="Y">W</option>
+                    <option value="Z">E</option>
+                </select>
+            </label>
+            <button>CONFIRM</button>
+            <button class="startgame">START GAME</button>
+        </div>
+        <div class="board">
+            <div class="box">Placeholder for Board</div>
+            <button class="reset">RESET BOARD</button>
+        </div>
+        <div class="score">
+            <h2>Score</h2>
+            <div>Player1 Score: <span>0</span></div>
+            <div>Player2 Score: <span>0</span></div>
+            <div>turn: <span>0</span></div>
+        </div>
+    </div>
+    
     
 </body>
 </html>
